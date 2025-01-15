@@ -16,7 +16,7 @@ const ChooseData: ChooseDataItem[] = [
     icon: FaShieldAlt,
     title: "Safe and Secure",
     subtitle: "Your child's safety is our top priority with trained staff and secure trips.",
-    bg: "#d6eaf8",
+    bg: "#ebf5fb",
   },
   {
     icon: FaGlobe,
@@ -28,7 +28,7 @@ const ChooseData: ChooseDataItem[] = [
     icon: FaBookReader,
     title: "Educational Value",
     subtitle: "A mix of learning and adventure to expand your child's horizons.",
-    bg: "#f9e79f",
+    bg: "#fef9e7 ",
   }
 ];
 
