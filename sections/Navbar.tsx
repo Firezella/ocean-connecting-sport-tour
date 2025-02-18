@@ -1,16 +1,26 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations } from "use-intl";
 import { useState } from "react";
 import LanguageSwitcher from "@/Components/LanguageSwitcher";
 import { twMerge } from "tailwind-merge";
 import {useLocale} from "use-intl";
-import { AnimatePresence, motion, useScroll } from "motion/react";
+import { useTheme } from "next-themes";
+import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "motion/react";
+import ThemeToggle from "@/Components/ThemeToggle";
+import Logo from "@/public/Logo 12cm.svg";
+import { cn } from "@/lib/utils";
+
+const parentVariants = {
+  visible: { opacity: 1, y: 0 },
+  hidden: { opacity: 0, y: "-4rem" },
+};
 
 function Navbar() {
-  const { scrollYProgress } = useScroll()
   const t = useTranslations("homepage.navbar");
   const locale = useLocale()
+  const isDark = useTheme().theme === "dark";
 
   const navbarLink = [
     {
@@ -53,35 +63,46 @@ function Navbar() {
     setOpenSubMenu(openSubMenu === index ? null : index);
   };
 
+  const { scrollY } = useScroll();
+  const [hidden, setHidden] = useState(false);
+  const [prevScroll, setPrevScroll] = useState(0);
+
+  function update(latest: number, prev: number): void {
+    if (latest < prev) {
+      setHidden(false);
+    } else if (latest > 100 && latest > prev) {
+      setHidden(true);
+    }
+  }
+
+  useMotionValueEvent(scrollY, "change", (latest: number) => {
+    update(latest, prevScroll);
+    setPrevScroll(latest);
+  });
+
   return (
-    <section className="fixed z-50 bg-white shadow-md backdrop-blur-2xl bg-opacity-90">
-      <motion.div
-                id="scroll-indicator"
-                className="bg-primary-800"
-                style={{
-                    scaleX: scrollYProgress,
-                    position: "fixed",
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    height: 2,
-                    originX: 0,
-                }}
-            />
+    <motion.section
+      variants={parentVariants}
+      animate={hidden ? "hidden" : "visible"}
+      transition={{
+        ease: [0.1, 0.25, 0.3, 1],
+        duration: 0.3,
+      }}
+    className="fixed z-50 shadow-md backdrop-blur-2xl border-b border-background-100 bg-background-50 bg-opacity-60">
       <div className="flex w-screen h-fit min-h-16 items-center px-5 lg:px-10">
         <div className="flex-1 flex gap-3 items-center">
           <div className="">
             {/* logo */}
-            
+            <Image src={Logo} alt="" width={56} height={56} className={cn("w-14 h-14",isDark && "invert")} />
           </div>
-          <Link className="transition text-sm lg:text-lg duration-300 font-semibold hover:text-primary-200" href='/#main'>{t("title")}</Link>
+          <Link className="transition text-sm lg:text-lg duration-300 font-semibold hover:text-primary-800" href='/#main'>{t("title")}</Link>
         </div>
         <div className="lg:gap-8 md:gap-4 font-medium hidden lg:flex items-center">
           {navbarLink.map((link, idx) =>
             (
               <div key={idx}>
                 <Link
-                  className="hover:text-primary-300 border-b-2 duration-150 border-opacity-0 hover:border-opacity-100 border-primary-300 pb-5 transition-all"
+                  className="hover:text-primary-700 border-b-2 duration-150 border-transparent hover:border-primary-700 pb-5 transition-all"
                   href={link.link}
                 >
                   {link.title}
@@ -89,12 +110,13 @@ function Navbar() {
               </div>
               )
             )}
+          <ThemeToggle/>
           <LanguageSwitcher />
         </div>
 
-        {/* style responsive */}
         <div className="flex gap-3 lg:hidden">
           <LanguageSwitcher />
+          <ThemeToggle/>
           <div
             onClick={() => setIsOpen(!isOpen)}
             className="flex gap-5 lg:hidden flex-col cursor-pointer">
@@ -154,12 +176,12 @@ function Navbar() {
           {navbarLink.map((link, idx) =>
             (
               <div
-              key={idx} className="pl-5 py-3 flex justify-center hover:text-primary-100">
+              key={idx} className="pl-5 py-3 flex justify-center hover:text-primary-900">
                 <Link
                   onClick={() => (
                     setIsOpen(false)
                   )}
-                  className="px-3 text-primary-100 hover:text-primary-300 transition duration-300"
+                  className="px-3 text-primary-900 hover:text-primary-300 transition duration-300"
                   href={link.link}
                 >
                   {link.title}
@@ -170,7 +192,7 @@ function Navbar() {
         </motion.div>
       )}
       </AnimatePresence>
-    </section>
+    </motion.section>
   );
 }
 
