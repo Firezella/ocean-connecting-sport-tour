@@ -1,9 +1,9 @@
-"use client"; // ✅ Mode client activé
+"use client"; 
 
 import React from "react";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 interface Poeples {
     adults: number;
@@ -20,20 +20,20 @@ interface TourReservationProps {
 const TourReservationComponent: React.FC<TourReservationProps> = ({ id, poeples, date }) => {
     const locale = useLocale();
     const router = useRouter();
-    const pathname = usePathname();
     const tt = useTranslations("homepage.tours");
 
     const handleSubmitReservation = (e: React.FormEvent) => {
         e.preventDefault();
 
-        // 🔹 Formatage de la date en `YYYY-MM-DD`
         const formattedDate = date.toISOString().split("T")[0];
-            console.log(poeples);
-        // 🔹 Encodage de `poeples` pour éviter les erreurs dans l’URL
+        console.log("Submitting poeples:", poeples);
+
         const poeplesEncoded = encodeURIComponent(JSON.stringify(poeples));
 
-        // ✅ Redirection propre avec tous les paramètres bien formatés
-        router.push(`/${locale}/Reservation_Tours/${id}?poeples=${poeplesEncoded}&date=${formattedDate}`);
+        // ✅ Store poeples in localStorage before navigation
+        localStorage.setItem("poeples", JSON.stringify(poeples));
+
+        router.replace(`/${locale}/Reservation_Tours/${id}?poeples=${poeplesEncoded}&date=${formattedDate}`);
     };
 
     return (
