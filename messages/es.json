@@ -11,6 +11,7 @@
       "features": "características",
       "activities": "actividades",
       "places": "lugares",
+      "sports": "deportes",
       "services": "servicios",
       "downloads": "descargas",
       "gallery": "galería",
@@ -93,6 +94,34 @@
           "title": "Surf",
           "descr": "Atrapa las olas y disfruta de la emoción del surf en el mar abierto."
         }
+      }
+    },
+    "sports": {
+      "title": "deportes",
+      "text": "Mantenerse activo es esencial para niños y adolescentes, y nuestro programa ofrece una variedad de deportes para mantenerlos comprometidos, saludables y divirtiéndose. Ya sea que les guste el fútbol, baloncesto, natación, tenis, gimnasia o skateboard, hay algo para todos.",
+      "football": {
+        "name": "Fútbol",
+        "description": "El deporte más popular del mundo, el fútbol fomenta el trabajo en equipo, la estrategia y la resistencia. Los jugadores trabajan juntos para pasar, driblar y marcar goles, mejorando la coordinación y la condición física."
+      },
+      "basketball": {
+        "name": "Baloncesto",
+        "description": "Un deporte de alta energía que mejora la agilidad, la velocidad y el trabajo en equipo. Los jugadores driblan, pasan y lanzan para marcar puntos, desarrollando la coordinación mano-ojo y el pensamiento estratégico."
+      },
+      "swimming": {
+        "name": "Natación",
+        "description": "Un ejercicio de cuerpo completo que desarrolla la fuerza, la resistencia y la flexibilidad. La natación es excelente para la salud cardiovascular y es una forma divertida de mantenerse activo en el agua."
+      },
+      "tennis": {
+        "name": "Tenis",
+        "description": "Un deporte de raqueta rápido que mejora los reflejos, la coordinación y la concentración. El tenis enseña a pensar estratégicamente mientras proporciona un excelente entrenamiento cardiovascular."
+      },
+      "gymnastics": {
+        "name": "Gimnasia",
+        "description": "Un deporte que mejora la flexibilidad, el equilibrio y la fuerza central. La gimnasia ayuda a desarrollar disciplina y coordinación a través de diversos movimientos y rutinas."
+      },
+      "skateboarding": {
+        "name": "Skateboard",
+        "description": "Un deporte dinámico que fomenta el equilibrio, la creatividad y la perseverancia. El skateboard permite a los participantes aprender trucos y mejorar la coordinación mientras se divierten."
       }
     },
     "text_ticker": {
@@ -308,8 +337,7 @@
           "type": "Descubrimiento",
           "duration": "2 horas 30 minutos"
         },
-      
-    
+
         "tour_2": {
           "title": "Excursión Marrakech - Essaouira",
           "description": "Un recorrido mágico a través de las colinas y bosques de argán hasta la costa atlántica.",

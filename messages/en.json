@@ -11,6 +11,7 @@
       "features": "features",
       "activities": "activities",
       "places": "places",
+      "sports": "sports",
       "services": "services",
       "downloads": "downloads",
       "gallery": "gallery",
@@ -93,6 +94,34 @@
           "title": "Surfing",
           "descr": "Catch the waves and enjoy the thrill of surfing in the open sea."
         }
+      }
+    },
+    "sports": {
+      "title": "sports",
+      "text": "Staying active is essential for kids and teenagers, and our program offers a variety of sports to keep them engaged, healthy, and having fun! Whether they love football, basketball, swimming, tennis, gymnastics, or skateboarding, there's something for everyone.",
+      "football": {
+        "name": "Football",
+        "description": "The world's most popular sport, football encourages teamwork, strategy, and endurance. Players work together to pass, dribble, and score goals, improving coordination and fitness."
+      },
+      "basketball": {
+        "name": "Basketball",
+        "description": "A high-energy sport that enhances agility, speed, and teamwork. Players dribble, pass, and shoot to score points, developing hand-eye coordination and strategic thinking."
+      },
+      "swimming": {
+        "name": "Swimming",
+        "description": "A full-body workout that builds strength, endurance, and flexibility. Swimming is great for cardiovascular health and is a fun way to stay active in the water."
+      },
+      "tennis": {
+        "name": "Tennis",
+        "description": "A fast-paced racket sport that improves reflexes, coordination, and focus. Tennis teaches strategic thinking while providing an excellent cardiovascular workout."
+      },
+      "gymnastics": {
+        "name": "Gymnastics",
+        "description": "A sport that enhances flexibility, balance, and core strength. Gymnastics helps develop discipline and coordination through various movements and routines."
+      },
+      "skateboarding": {
+        "name": "Skateboarding",
+        "description": "A dynamic sport that promotes balance, creativity, and perseverance. Skateboarding allows participants to learn tricks and improve coordination while having fun."
       }
     },
     "text_ticker": {

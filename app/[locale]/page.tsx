@@ -10,6 +10,7 @@ import Tours from "@/sections/Tours";
 import Opnion from "@/sections/Opnion";
 import Features from "@/sections/Features";
 import Loading from "@/Components/LoadingSpinner";
+import Sports from "@/sections/Sports";
 
 const LoadingFallback = () => (
   <div className="flex items-center justify-center h-screen">
@@ -40,6 +41,9 @@ export default function Home() {
       </Suspense>
       <Suspense fallback={<LoadingFallback />}>
         <Tours />
+      </Suspense>
+      <Suspense fallback={<LoadingFallback />}>
+        <Sports />
       </Suspense>
       <Suspense fallback={<LoadingFallback />}>
         <Opnion />

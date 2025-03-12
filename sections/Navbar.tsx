@@ -45,6 +45,10 @@ function Navbar() {
       link: "/#places",
     },
     {
+      title: t("sports"),
+      link: "/#sports",
+    },
+    {
       title: t("about"),
       link: "/#about",
     },
@@ -114,7 +118,7 @@ function Navbar() {
             {t("title")}
           </Link>
         </div>
-        <div className="lg:gap-8 md:gap-4 font-medium hidden lg:flex items-center">
+        <div className="lg:gap-8 md:gap-4 text-sm hidden lg:flex items-center">
           {navbarLink.map((link, idx) => (
             <div key={idx}>
               <Link
