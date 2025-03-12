@@ -42,7 +42,7 @@ export default async function RootLayout({
   const { locale } = await params;
 
   const messages = await getMessages();
-  const validLocales = ["fr", "en", "ar", "es", "de"];
+  const validLocales = ["fr", "en", "ar", "es", "de", "ja", "pt", "ru", "zh"];
 
   if (!validLocales.includes(locale)) {
     redirect("/en");
