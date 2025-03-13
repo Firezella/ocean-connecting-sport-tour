@@ -32,7 +32,7 @@ export default function AnimatedModalDemo({ route, id }: TourMapProps) {
     <div className="py-2 m-100 flex items-center justify-center">
       <Modal>
         <div>
-          <ModalTrigger className="bg-primary-500 rounded-3xl text-black flex justify-center">
+          <ModalTrigger className="bg-primary-500 rounded-3xl text-white flex justify-center">
             <span className=" text-center transition duration-2000">
               {tt("show_map")}
             </span>

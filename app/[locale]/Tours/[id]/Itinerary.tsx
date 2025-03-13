@@ -50,7 +50,7 @@ export default function Itinerary({ tour }: ItineraryProps) {
       <div className="relative">
         {/* Desktop timeline (hidden on mobile) */}
         <div className="hidden md:block">
-          <div className="absolute left-0 top-1/2 w-full border-t-2" />
+          <div className="absolute left-0 top-1/2 w-full border-t-2 border-text-700" />
           <div className="relative flex justify-between">
             {tour.passBy.map((location, index) => (
               <div

@@ -83,7 +83,7 @@ export default function SportCard({ sport }: SportCardProps) {
         transition={{ delay: 0.3 }}
       >
         <motion.button
-          className="mt-2 inline-flex items-center px-2 py-2 bg-background-200 text-white rounded-full hover:bg-background-300 transition-colors"
+          className="mt-2 inline-flex items-center px-2 py-2 bg-background-200 text-text-800 rounded-full hover:bg-background-300 transition-colors"
           whileTap={{ scale: 0.95 }}
         >
           {isExpanded ? <ChevronUp size={24} /> : <ChevronDown size={24} />}

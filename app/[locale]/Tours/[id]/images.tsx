@@ -3,14 +3,15 @@ import { ChevronLeft, ChevronRight, Heart } from "lucide-react";
 import Image from "next/image";
 
 interface ImagesProps {
-  src: string,
-  alt: string
-};
+  src: string;
+  alt: string;
+}
 
 interface ImagesCarouselProps {
-  images: ImagesProps[]}
+  images: ImagesProps[];
+}
 
-export default function ImageCarousel({images}: ImagesCarouselProps) {
+export default function ImageCarousel({ images }: ImagesCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [liked, setLiked] = useState(false);
 
@@ -22,7 +23,7 @@ export default function ImageCarousel({images}: ImagesCarouselProps) {
     setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
   };
 
-  const handleDotClick = (index:any) => {
+  const handleDotClick = (index: any) => {
     setCurrentIndex(index);
   };
 
@@ -30,7 +31,7 @@ export default function ImageCarousel({images}: ImagesCarouselProps) {
     <div className="relative w-4/5   overflow-hidden rounded-xl shadow-lg">
       {/* Image Container */}
       <div className="relative w-full h-64">
-      <Image
+        <Image
           src={images[currentIndex].src}
           alt={images[currentIndex].alt}
           layout="fill"
@@ -38,14 +39,7 @@ export default function ImageCarousel({images}: ImagesCarouselProps) {
           className="rounded-xl"
         />
 
-<div>
-      
-     
-    </div>
-
-
-
-
+        <div></div>
       </div>
       {/* Navigation Controls */}
       <button

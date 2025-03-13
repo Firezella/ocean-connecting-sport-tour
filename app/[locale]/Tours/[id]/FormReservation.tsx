@@ -114,7 +114,7 @@ const FormReservation: React.FC<FormProps> = ({ tour }) => {
 
   return (
     <div id="book" className="w-full max-w-4xl mx-auto sm:px-6">
-      <h1 className="text-white text-sm sm:text-lg md:text-xl lg:text-2xl text-center">
+      <h1 className="text-text-950 text-sm sm:text-lg md:text-xl lg:text-2xl text-center">
         book your tour here by remplir the form
       </h1>
       <form
