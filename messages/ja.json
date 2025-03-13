@@ -265,94 +265,90 @@
       "Marrakech": "マラケシュ",
       "Essaouira": "エッサウイラ"
     },
+
     "tours": {
       "heading": "ツアー",
-      "show_map": "マップを表示します",
+      "show_map": "地図を表示",
+      "book": "今すぐ予約",
       "Itinerary": "旅程",
       "form": {
-        "title": "ツアーを予約してください",
-        "Number_Adults": "大人の数",
-        "Number_Children": "子供の数",
+        "title": "ツアーを予約する",
+        "FirstName": "名",
+        "LastName": "姓",
+        "numberPhone": "電話番号",
+        "email": "メールアドレス",
+        "hasAnimal": "動物を連れていますか？",
+        "Number_Adults": "大人の人数",
+        "Number_Children": "子供の人数",
         "date of reservation": "予約日",
-        "select_Date": "[日付]を選択します",
-        "Number_Babies": "赤ちゃんの数",
-        "Confirm_Reservation": "予約を確認します",
-        "Duration": "間隔",
-        "Detail_Tariff": "関税の詳細",
-        "Price_Adults": "大人の価格",
-        "Price_Children": "子供の価格",
-        "Price_Babies": "赤ちゃんの価格",
-        "Total_Price": "総価格",
-        "alert": "今日より遅く日付を選択してください"
-      },
-      "propose": {
-        "propose1": {
-          "title": "自由キャンセル",
-          "descr": "全額払い戻しのために最大24時間前にキャンセルします。"
-        },
-        "propose2": {
-          "title": "最大のセキュリティ",
-          "descr": "あなたの心の安らぎを確保するためのセキュリティ対策を強化しました。"
-        },
-        "propose3": {
-          "title": "24時間年中無休のサポート",
-          "descr": "あなたの質問に答えるためにいつでも利用できる支援。"
-        },
-        "propose4": {
-          "title": "小グループ",
-          "descr": "小さなグループサイズでよりパーソナライズされた体験をお楽しみください。"
-        }
+        "select_Date": "日付を選択",
+        "select_person": "人数を選択",
+        "errorFirstName": "名は必須です",
+        "errorLastName": "姓は必須です",
+        "errornumberPhon1": "電話番号は必須です",
+        "errornumberPhon2": "電話番号は06で始まり、10桁である必要があります",
+        "errorEmail1": "メールアドレスは必須です",
+        "errorEmail2": "有効なメールアドレスを入力してください (例: 'name@gmail.com')",
+        "Confirm_Reservation": "予約を確認",
+        "confirme_change": "変更を確認",
+        "Duration": "所要時間",
+        "Detail_Tariff": "料金の詳細",
+        "Price_Adults": "大人の料金",
+        "Price_Children": "子供の料金",
+        "Price_Babies": "赤ちゃんの料金",
+        "Total_Price": "合計料金",
+        "alert": "今日以降の日付を選択してください"
       },
       "tour": {
         "tour_1": {
-          "title": "アガディールからマラケシュへの旅行",
+          "title": "アガディールからマラケシュへの旅",
           "route": {
-            "Amskroud": "amskroud",
-            "Imi n'Tanout": "imi n'tanout",
-            "sidi mokhtar": "Sidi Mokhtar",
-            "chichaoua": "チチャウア",
-            "lalla Takerkoust": "ララ・テルクート",
-            "point 6": "ポイント6"
+            "Amskroud": "アムスクロード",
+            "Imi n'Tanout": "イミ・ン・タヌート",
+            "Sidi Mokhtar": "シディ・モクター",
+            "Chichaoua": "シシャウア",
+            "Lalla Takerkoust": "ララ・タケルコスト",
+            "Point 6": "ポイント6"
           },
           "passBy": {
-            "passBy": "通り過ぎます",
+            "passBy": "経由地",
             "pass": {
-              "Amskroud": "amskroud",
-              "Imi n'Tanout": "imi n'tanout",
-              "Sidi Mokhtar": "Sidi Mokhtar",
-              "Chichaoua": "チチャウア",
-              "Lalla Takerkoust": "ララ・テルクート"
+              "Amskroud": "アムスクロード",
+              "Imi n'Tanout": "イミ・ン・タヌート",
+              "Sidi Mokhtar": "シディ・モクター",
+              "Chichaoua": "シシャウア",
+              "Lalla Takerkoust": "ララ・タケルコスト"
             }
           },
-          "description": "魅力的な停留所で、アガディールとマラケシュの間の絵のような風景を発見してください。",
+          "description": "アガディールとマラケシュの間の美しい景色を、魅力的な立ち寄りスポットとともにお楽しみください。",
           "departure": "マラケシュ",
-          "arrival": "エッサウイラ",
+          "arrival": "エッサウィラ",
           "type": "発見",
           "duration": "2時間30分"
         },
         "tour_2": {
-          "title": "Excursion Marrakech -Essaouira",
-          "description": "Un ParcoursMagiqueàTraversLes Collines etforêtsD'ArganiersJusqu'àaLaCôteAtlantique。",
-          "type": "デコーヴェルト",
-          "duration": "1ジャーニー"
+          "title": "マラケシュ - エッサウィラ 日帰り旅行",
+          "description": "丘陵やアルガンの森を抜け、大西洋沿岸までの魔法のような旅。",
+          "type": "発見",
+          "duration": "1日"
         },
         "tour_3": {
-          "title": "ロードトリップエッサウイラ - アガディール",
-          "description": "Partezàladécouvertedes Plages Sauvages et des Charmants Villages comtiers。",
+          "title": "エッサウィラ - アガディール ロードトリップ",
+          "description": "野生のビーチや魅力的な海辺の村を探索しましょう。",
           "type": "リラクゼーション",
-          "duration": "3つのジャー"
+          "duration": "3日間"
         },
         "tour_4": {
-          "title": "Aventure D'UneJournéeAgadir -Essaouira",
-          "description": "Prepitez D'Une Route PanoramiqueJusqu'àlaCélèbreVilleBleue、Essaouira。",
-          "type": "訪問者ガイデ",
-          "duration": "1ジャーニー"
+          "title": "アガディール - エッサウィラ 1日冒険",
+          "description": "有名な青い町エッサウィラまでの絶景ロードトリップを楽しもう。",
+          "type": "ガイド付きツアー",
+          "duration": "1日"
         },
         "tour_5": {
-          "title": "回路Marrakech、Essaouira et Agadir",
-          "description": "Explorez Les Merveilles de Trois VillesEmblématiquesdu Maroc。",
-          "type": "遠足",
-          "duration": "5つのジャー"
+          "title": "マラケシュ、エッサウィラ、アガディール周遊ツアー",
+          "description": "モロッコの象徴的な3つの都市の魅力を探検しましょう。",
+          "type": "エクスカーション",
+          "duration": "5日間"
         }
       }
     },

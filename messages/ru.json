@@ -265,94 +265,90 @@
       "Marrakech": "Марракеш",
       "Essaouira": "Essaouira"
     },
+
     "tours": {
       "heading": "Туры",
       "show_map": "Показать карту",
+      "book": "Забронировать сейчас",
       "Itinerary": "Маршрут",
       "form": {
-        "title": "Забронируйте свой тур",
+        "title": "Забронируйте тур",
+        "FirstName": "Имя",
+        "LastName": "Фамилия",
+        "numberPhone": "Номер телефона",
+        "email": "Электронная почта",
+        "hasAnimal": "У вас есть животное с собой?",
         "Number_Adults": "Количество взрослых",
         "Number_Children": "Количество детей",
         "date of reservation": "Дата бронирования",
         "select_Date": "Выберите дату",
-        "Number_Babies": "Количество детей",
-        "Confirm_Reservation": "Подтвердите бронирование",
-        "Duration": "Продолжительность",
-        "Detail_Tariff": "Тарифные детали",
+        "select_person": "Выберите количество человек",
+        "errorFirstName": "Имя обязательно",
+        "errorLastName": "Фамилия обязательна",
+        "errornumberPhon1": "Номер телефона обязателен",
+        "errornumberPhon2": "Номер телефона должен начинаться с 06 и содержать 10 цифр",
+        "errorEmail1": "Адрес электронной почты обязателен",
+        "errorEmail2": "Введите корректный адрес электронной почты, например, 'name@gmail.com'",
+        "Confirm_Reservation": "Подтвердить бронирование",
+        "confirme_change": "Подтвердить изменение",
+        "Duration": "Длительность",
+        "Detail_Tariff": "Детали тарифа",
         "Price_Adults": "Цена для взрослых",
         "Price_Children": "Цена для детей",
-        "Price_Babies": "Цена для детей",
-        "Total_Price": "Общая цена",
-        "alert": "Пожалуйста, выберите дату позже сегодня"
-      },
-      "propose": {
-        "propose1": {
-          "title": "Бесплатная отмена",
-          "descr": "Отмените до 24 часов до полного возврата."
-        },
-        "propose2": {
-          "title": "Максимальная безопасность",
-          "descr": "Улучшенные меры безопасности для обеспечения вашего душевного спокойствия."
-        },
-        "propose3": {
-          "title": "24/7 поддержка",
-          "descr": "Помощь доступна в любое время, чтобы ответить на ваши вопросы."
-        },
-        "propose4": {
-          "title": "Небольшие группы",
-          "descr": "Наслаждайтесь более персонализированным опытом с размерами небольших групп."
-        }
+        "Price_Babies": "Цена для младенцев",
+        "Total_Price": "Общая стоимость",
+        "alert": "Пожалуйста, выберите дату позже сегодняшнего дня"
       },
       "tour": {
         "tour_1": {
-          "title": "Поездка из Агадира в Марракеш",
+          "title": "Путешествие из Агадира в Марракеш",
           "route": {
-            "Amskroud": "Amskroud",
-            "Imi n'Tanout": "Imi n'tanout",
-            "sidi mokhtar": "Сиди Мохтар",
-            "chichaoua": "Чичауа",
-            "lalla Takerkoust": "Лалла Такеркуст",
-            "point 6": "Точка 6"
+            "Amskroud": "Амскроуд",
+            "Imi n'Tanout": "Ими н’Танут",
+            "Sidi Mokhtar": "Сиди Моктар",
+            "Chichaoua": "Шишава",
+            "Lalla Takerkoust": "Лалла Такеркуст",
+            "Point 6": "Точка 6"
           },
           "passBy": {
-            "passBy": "Пройти мимо",
+            "passBy": "Проезжая через",
             "pass": {
-              "Amskroud": "Amskroud",
-              "Imi n'Tanout": "Imi n'tanout",
-              "Sidi Mokhtar": "Сиди Мохтар",
-              "Chichaoua": "Чичауа",
+              "Amskroud": "Амскроуд",
+              "Imi n'Tanout": "Ими н’Танут",
+              "Sidi Mokhtar": "Сиди Моктар",
+              "Chichaoua": "Шишава",
               "Lalla Takerkoust": "Лалла Такеркуст"
             }
           },
-          "description": "Откройте для себя живописные пейзажи между Агадиром и Марракеш с увлекательными остановками.",
+          "description": "Откройте для себя живописные пейзажи между Агадиром и Марракешем с увлекательными остановками.",
           "departure": "Марракеш",
-          "arrival": "Essaouira",
+          "arrival": "Эс-Сувейра",
           "type": "Открытие",
           "duration": "2 часа 30 минут"
         },
         "tour_2": {
-          "title": "Экскурсия Marrakech - Essaouira",
-          "description": "Un parcours Magique à Travers Les Collines et forêts d'Arganiers Jusqu'à la Côte Atlantique.",
-          "type": "Декуверт",
-          "duration": "1 журнал"
+          "title": "Экскурсия Марракеш - Эс-Сувейра",
+          "description": "Волшебный маршрут через холмы и леса аргановых деревьев к Атлантическому побережью.",
+          "type": "Открытие",
+          "duration": "1 день"
         },
         "tour_3": {
-          "title": "Road Trip Essaouira - Агадир",
-          "description": "Partez à la découverte des Plages Sauvages et des warmants деревни Коутиер.",
-          "type": "Расслабление",
-          "duration": "3 журнала"
+          "title": "Дорожное путешествие Эс-Сувейра - Агадир",
+          "description": "Откройте для себя дикие пляжи и очаровательные прибрежные деревни.",
+          "type": "Отдых",
+          "duration": "3 дня"
         },
         "tour_4": {
-          "title": "Aventure d'une Journée Agadir - Essaouira",
-          "description": "Profitez d'un Route Panoramique Jusqu'à la Célèbre Ville Bleue, Essaouira.",
-          "type": "Visite Guidée",
-          "duration": "1 журнал"
+          "title": "Приключение на день Агадир - Эс-Сувейра",
+          "description": "Насладитесь живописной дорогой в знаменитый голубой город Эс-Сувейра.",
+          "type": "Групповая экскурсия",
+          "duration": "1 день"
         },
         "tour_5": {
-          "title": "Circuit Marrakech, Essaouira et agadir",
-          "description": "Explorez Les Merveilles de Trois Villes Emblématiques du Maroc.",
+          "title": "Тур по Марракешу, Эс-Сувейре и Агадиру",
+          "description": "Исследуйте чудеса трех знаковых марокканских городов.",
           "type": "Экскурсия",
-          "duration": "5 журналов"
+          "duration": "5 дней"
         }
       }
     },

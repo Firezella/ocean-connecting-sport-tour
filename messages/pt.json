@@ -265,60 +265,56 @@
       "Marrakech": "Marrakech",
       "Essaouira": "Esseouira"
     },
+
     "tours": {
       "heading": "Passeios",
       "show_map": "Mostrar mapa",
+      "book": "Reservar agora",
       "Itinerary": "Itinerário",
       "form": {
-        "title": "Reserve sua turnê",
+        "title": "Reserve seu passeio",
+        "FirstName": "Nome",
+        "LastName": "Sobrenome",
+        "numberPhone": "Número de telefone",
+        "email": "E-mail",
+        "hasAnimal": "Você tem um animal com você?",
         "Number_Adults": "Número de adultos",
         "Number_Children": "Número de crianças",
-        "date of reservation": "Data de reserva",
-        "select_Date": "Selecione a data",
-        "Number_Babies": "Número de bebês",
-        "Confirm_Reservation": "Confirme a reserva",
+        "date of reservation": "Data da reserva",
+        "select_Date": "Selecionar data",
+        "select_person": "Selecionar pessoa",
+        "errorFirstName": "O nome é obrigatório",
+        "errorLastName": "O sobrenome é obrigatório",
+        "errornumberPhon1": "O número de telefone é obrigatório",
+        "errornumberPhon2": "O número de telefone deve começar com 06 e conter 10 dígitos",
+        "errorEmail1": "O e-mail é obrigatório",
+        "errorEmail2": "Digite um e-mail válido, por exemplo, 'name@gmail.com'",
+        "Confirm_Reservation": "Confirmar reserva",
+        "confirme_change": "Confirmar alteração",
         "Duration": "Duração",
         "Detail_Tariff": "Detalhes da tarifa",
         "Price_Adults": "Preço para adultos",
         "Price_Children": "Preço para crianças",
         "Price_Babies": "Preço para bebês",
         "Total_Price": "Preço total",
-        "alert": "Selecione uma data mais tarde do que hoje"
-      },
-      "propose": {
-        "propose1": {
-          "title": "Cancelamento livre",
-          "descr": "Cancelar até 24 horas de antecedência para obter um reembolso total."
-        },
-        "propose2": {
-          "title": "Segurança máxima",
-          "descr": "Medidas de segurança aprimoradas para garantir sua paz de espírito."
-        },
-        "propose3": {
-          "title": "Suporte 24/7",
-          "descr": "Assistência disponível a qualquer momento para responder às suas perguntas."
-        },
-        "propose4": {
-          "title": "Pequenos grupos",
-          "descr": "Desfrute de uma experiência mais personalizada com tamanhos de pequenos grupos."
-        }
+        "alert": "Selecione uma data posterior a hoje"
       },
       "tour": {
         "tour_1": {
-          "title": "Viagem de Agadir para Marrakech",
+          "title": "Viagem de Agadir a Marrakech",
           "route": {
             "Amskroud": "Amskroud",
-            "Imi n'Tanout": "Imi n'tanout",
-            "sidi mokhtar": "Sidi Mokhtar",
-            "chichaoua": "Chichaoua",
-            "lalla Takerkoust": "Lalla Takerkoust",
-            "point 6": "Ponto 6"
+            "Imi n'Tanout": "Imi n'Tanout",
+            "Sidi Mokhtar": "Sidi Mokhtar",
+            "Chichaoua": "Chichaoua",
+            "Lalla Takerkoust": "Lalla Takerkoust",
+            "Point 6": "Ponto 6"
           },
           "passBy": {
-            "passBy": "Passar por",
+            "passBy": "Passando por",
             "pass": {
               "Amskroud": "Amskroud",
-              "Imi n'Tanout": "Imi n'tanout",
+              "Imi n'Tanout": "Imi n'Tanout",
               "Sidi Mokhtar": "Sidi Mokhtar",
               "Chichaoua": "Chichaoua",
               "Lalla Takerkoust": "Lalla Takerkoust"
@@ -326,33 +322,33 @@
           },
           "description": "Descubra as paisagens pitorescas entre Agadir e Marrakech com paradas fascinantes.",
           "departure": "Marrakech",
-          "arrival": "Esseouira",
+          "arrival": "Essaouira",
           "type": "Descoberta",
-          "duration": "2 horas 30 minutos"
+          "duration": "2 horas e 30 minutos"
         },
         "tour_2": {
-          "title": "Excursão Marrakech - Esseouira",
-          "description": "On Parcours Magique à Travers Les Collines et Forêts d'Arganiers Jusqu'à la Côte Atlantique.",
-          "type": "Découverte",
-          "duration": "1 Journée"
+          "title": "Excursão Marrakech - Essaouira",
+          "description": "Uma jornada mágica pelas colinas e florestas de argan até a costa atlântica.",
+          "type": "Descoberta",
+          "duration": "1 dia"
         },
         "tour_3": {
-          "title": "Viagem de estrada Esseouira - Agadir",
-          "description": "Partez à la découverte des Plages Sauvages et des choTmants aldeias Côtiers.",
+          "title": "Road Trip Essaouira - Agadir",
+          "description": "Descubra praias selvagens e encantadoras vilas costeiras.",
           "type": "Relaxamento",
-          "duration": "3 jours"
+          "duration": "3 dias"
         },
         "tour_4": {
-          "title": "Aventure D'Ene Journée Agadir - Esseouira",
-          "description": "Rota Profitez d'Enene Panoramique Jusqu'à la Célèbre ville bleue, Esseouira.",
-          "type": "Visite Guidée",
-          "duration": "1 Journée"
+          "title": "Aventura de um dia Agadir - Essaouira",
+          "description": "Aproveite uma viagem panorâmica até a famosa cidade azul, Essaouira.",
+          "type": "Visita guiada",
+          "duration": "1 dia"
         },
         "tour_5": {
-          "title": "Circuito Marrakech, Esseouira et Agadir",
-          "description": "Explorez Les Merveilles de Trois Villes Emblématiques du Maroc.",
+          "title": "Circuito Marrakech, Essaouira e Agadir",
+          "description": "Explore as maravilhas de três cidades icônicas do Marrocos.",
           "type": "Excursão",
-          "duration": "5 jours"
+          "duration": "5 dias"
         }
       }
     },

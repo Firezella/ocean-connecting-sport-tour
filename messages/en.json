@@ -266,18 +266,32 @@
       "Marrakech": "Marrakech",
       "Essaouira": "Essaouira"
     },
+
     "tours": {
       "heading": "Tours",
       "show_map": "Show Map",
+      "book": "Book Now",
       "Itinerary": "Itinerary",
       "form": {
         "title": "Book Your Tour",
+        "FirstName": "First Name",
+        "LastName": "Last Name",
+        "numberPhone": "Phone Number",
+        "email": "Email",
+        "hasAnimal": "Do you have an animal with you?",
         "Number_Adults": "Number of Adults",
         "Number_Children": "Number of Children",
         "date of reservation": "Reservation Date",
         "select_Date": "Select Date",
-        "Number_Babies": "Number of Babies",
+        "select_person": "Select Person",
+        "errorFirstName": "First name is required",
+        "errorLastName": "Last name is required",
+        "errornumberPhon1": "Phone number is required",
+        "errornumberPhon2": "The phone number must start with 06 and contain 10 digits",
+        "errorEmail1": "Email address is required",
+        "errorEmail2": "Please enter a valid email address, e.g., 'name@gmail.com'",
         "Confirm_Reservation": "Confirm Reservation",
+        "confirme_change": "Confirm Change",
         "Duration": "Duration",
         "Detail_Tariff": "Tariff Details",
         "Price_Adults": "Price for Adults",
@@ -286,37 +300,19 @@
         "Total_Price": "Total Price",
         "alert": "Please select a date later than today"
       },
-      "propose": {
-        "propose1": {
-          "title": "Free Cancellation",
-          "descr": "Cancel up to 24 hours in advance for a full refund."
-        },
-        "propose2": {
-          "title": "Maximum Security",
-          "descr": "Enhanced security measures to ensure your peace of mind."
-        },
-        "propose3": {
-          "title": "24/7 Support",
-          "descr": "Assistance available at any time to answer your questions."
-        },
-        "propose4": {
-          "title": "Small Groups",
-          "descr": "Enjoy a more personalized experience with small group sizes."
-        }
-      },
       "tour": {
         "tour_1": {
           "title": "Trip from Agadir to Marrakech",
           "route": {
             "Amskroud": "Amskroud",
             "Imi n'Tanout": "Imi n'Tanout",
-            "sidi mokhtar": "Sidi Mokhtar",
-            "chichaoua": "Chichaoua",
-            "lalla Takerkoust": "Lalla Takerkoust",
-            "point 6": "Point 6"
+            "Sidi Mokhtar": "Sidi Mokhtar",
+            "Chichaoua": "Chichaoua",
+            "Lalla Takerkoust": "Lalla Takerkoust",
+            "Point 6": "Point 6"
           },
           "passBy": {
-            "passBy": "Pass by",
+            "passBy": "Pass By",
             "pass": {
               "Amskroud": "Amskroud",
               "Imi n'Tanout": "Imi n'Tanout",
@@ -331,30 +327,29 @@
           "type": "Discovery",
           "duration": "2 hours 30 minutes"
         },
-
         "tour_2": {
-          "title": "Excursion Marrakech - Essaouira",
-          "description": "Un parcours magique à travers les collines et forêts d'arganiers jusqu'à la côte atlantique.",
-          "type": "Découverte",
-          "duration": "1 journée"
+          "title": "Marrakech - Essaouira Excursion",
+          "description": "A magical journey through hills and argan forests to the Atlantic coast.",
+          "type": "Discovery",
+          "duration": "1 day"
         },
         "tour_3": {
           "title": "Road Trip Essaouira - Agadir",
-          "description": "Partez à la découverte des plages sauvages et des charmants villages côtiers.",
+          "description": "Set off to explore wild beaches and charming coastal villages.",
           "type": "Relaxation",
-          "duration": "3 jours"
+          "duration": "3 days"
         },
         "tour_4": {
-          "title": "Aventure d'une journée Agadir - Essaouira",
-          "description": "Profitez d'une route panoramique jusqu'à la célèbre ville bleue, Essaouira.",
-          "type": "Visite guidée",
-          "duration": "1 journée"
+          "title": "One-Day Adventure Agadir - Essaouira",
+          "description": "Enjoy a scenic drive to the famous blue city, Essaouira.",
+          "type": "Guided Tour",
+          "duration": "1 day"
         },
         "tour_5": {
-          "title": "Circuit Marrakech, Essaouira et Agadir",
-          "description": "Explorez les merveilles de trois villes emblématiques du Maroc.",
+          "title": "Marrakech, Essaouira, and Agadir Circuit",
+          "description": "Explore the wonders of three iconic Moroccan cities.",
           "type": "Excursion",
-          "duration": "5 jours"
+          "duration": "5 days"
         }
       }
     },

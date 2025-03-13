@@ -265,43 +265,39 @@
       "Marrakech": "Marrakech",
       "Essaouira": "Essaouira"
     },
+
     "tours": {
       "heading": "Touren",
       "show_map": "Karte anzeigen",
-      "Itinerary": "Reiseroute",
+      "book": "Jetzt buchen",
+      "Itinerary": "Reiseverlauf",
       "form": {
         "title": "Buchen Sie Ihre Tour",
-        "Number_Adults": "Anzahl Erwachsene",
-        "Number_Children": "Anzahl Kinder",
+        "FirstName": "Vorname",
+        "LastName": "Nachname",
+        "numberPhone": "Telefonnummer",
+        "email": "E-Mail",
+        "hasAnimal": "Haben Sie ein Tier dabei?",
+        "Number_Adults": "Anzahl der Erwachsenen",
+        "Number_Children": "Anzahl der Kinder",
         "date of reservation": "Reservierungsdatum",
         "select_Date": "Datum auswählen",
-        "Number_Babies": "Anzahl Babys",
+        "select_person": "Person auswählen",
+        "errorFirstName": "Der Vorname ist erforderlich",
+        "errorLastName": "Der Nachname ist erforderlich",
+        "errornumberPhon1": "Die Telefonnummer ist erforderlich",
+        "errornumberPhon2": "Die Telefonnummer muss mit 06 beginnen und 10 Ziffern enthalten",
+        "errorEmail1": "Die E-Mail-Adresse ist erforderlich",
+        "errorEmail2": "Bitte geben Sie eine gültige E-Mail-Adresse ein, z. B. 'name@gmail.com'",
         "Confirm_Reservation": "Reservierung bestätigen",
+        "confirme_change": "Änderung bestätigen",
         "Duration": "Dauer",
         "Detail_Tariff": "Tarifdetails",
-        "Price_Adults": "Preis Erwachsene",
-        "Price_Children": "Preis Kinder",
-        "Price_Babies": "Preis Babys",
+        "Price_Adults": "Preis für Erwachsene",
+        "Price_Children": "Preis für Kinder",
+        "Price_Babies": "Preis für Babys",
         "Total_Price": "Gesamtpreis",
-        "alert": "Bitte wählen Sie ein Datum, das später als heute liegt"
-      },
-      "propose": {
-        "propose1": {
-          "title": "Kostenlose Stornierung",
-          "descr": "Stornieren Sie bis zu 24 Stunden im Voraus für eine vollständige Rückerstattung."
-        },
-        "propose2": {
-          "title": "Maximale Sicherheit",
-          "descr": "Verstärkte Sicherheitsmaßnahmen, um Ihre Ruhe zu gewährleisten."
-        },
-        "propose3": {
-          "title": "24/7 Support",
-          "descr": "Hilfe jederzeit verfügbar, um Ihre Fragen zu beantworten."
-        },
-        "propose4": {
-          "title": "Kleine Gruppen",
-          "descr": "Genießen Sie eine persönlichere Erfahrung mit kleinen Gruppengrößen."
-        }
+        "alert": "Bitte wählen Sie ein Datum, das nach heute liegt"
       },
       "tour": {
         "tour_1": {
@@ -309,13 +305,13 @@
           "route": {
             "Amskroud": "Amskroud",
             "Imi n'Tanout": "Imi n'Tanout",
-            "sidi mokhtar": "Sidi Mokhtar",
-            "chichaoua": "Chichaoua",
-            "lalla Takerkoust": "Lalla Takerkoust",
-            "point 6": "Punkt 6"
+            "Sidi Mokhtar": "Sidi Mokhtar",
+            "Chichaoua": "Chichaoua",
+            "Lalla Takerkoust": "Lalla Takerkoust",
+            "Point 6": "Punkt 6"
           },
           "passBy": {
-            "passBy": "Vorbeifahren an",
+            "passBy": "Vorbei an",
             "pass": {
               "Amskroud": "Amskroud",
               "Imi n'Tanout": "Imi n'Tanout",
@@ -324,40 +320,38 @@
               "Lalla Takerkoust": "Lalla Takerkoust"
             }
           },
-          "description": "Entdecken Sie die malerische Landschaft zwischen Agadir und Marrakesch mit faszinierenden Zwischenstopps.",
+          "description": "Entdecken Sie die malerische Landschaft zwischen Agadir und Marrakesch mit faszinierenden Stopps.",
           "departure": "Marrakesch",
           "arrival": "Essaouira",
           "type": "Entdeckung",
           "duration": "2 Stunden 30 Minuten"
         },
-
         "tour_2": {
-          "title": "Excursie Marrakech - Essaouira",
-          "description": "Een magische route door de heuvels en arganbossen naar de Atlantische kust.",
-          "type": "Ontdekking",
-          "duration": "1 dag"
+          "title": "Ausflug Marrakesch - Essaouira",
+          "description": "Eine magische Reise durch Hügel und Arganwälder bis zur Atlantikküste.",
+          "type": "Entdeckung",
+          "duration": "1 Tag"
         },
         "tour_3": {
           "title": "Roadtrip Essaouira - Agadir",
-          "description": "Ga op ontdekkingstocht naar de wilde stranden en charmante kustdorpjes.",
-          "type": "Ontspanning",
-          "duration": "3 dagen"
+          "description": "Erkunden Sie wilde Strände und charmante Küstendörfer.",
+          "type": "Entspannung",
+          "duration": "3 Tage"
         },
         "tour_4": {
-          "title": "Eendaagse Avontuur Agadir - Essaouira",
-          "description": "Geniet van een panoramische route naar de beroemde blauwe stad, Essaouira.",
-          "type": "Rondleiding",
-          "duration": "1 dag"
+          "title": "Tagesabenteuer Agadir - Essaouira",
+          "description": "Genießen Sie eine panoramische Fahrt in die berühmte blaue Stadt Essaouira.",
+          "type": "Geführte Tour",
+          "duration": "1 Tag"
         },
         "tour_5": {
-          "title": "Rondreis Marrakech, Essaouira en Agadir",
-          "description": "Ontdek de wonderen van drie iconische steden in Marokko.",
-          "type": "Excursie",
-          "duration": "5 dagen"
+          "title": "Rundreise Marrakesch, Essaouira und Agadir",
+          "description": "Entdecken Sie die Wunder von drei ikonischen marokkanischen Städten.",
+          "type": "Ausflug",
+          "duration": "5 Tage"
         }
       }
     },
-
     "downloads": {
       "title": "Downloads",
       "descr": "Ons bedrijf biedt alles wat je nodig hebt voor je unieke tour bij ons. Ocean sport en tours zorgt voor alles, vanaf het moment dat je landt tot het moment dat we afscheid nemen op de luchthaven. Hier vind je alles over tarieven en schema's voor je tours, reizen, accommodaties... die je gemakkelijk en snel kunt downloaden.",

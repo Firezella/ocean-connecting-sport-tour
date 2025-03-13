@@ -265,94 +265,90 @@
       "Marrakech": "马拉喀什",
       "Essaouira": "埃索拉（Essaouira）"
     },
+
     "tours": {
-      "heading": "游览",
+      "heading": "旅游",
       "show_map": "显示地图",
+      "book": "立即预订",
       "Itinerary": "行程",
       "form": {
         "title": "预订您的旅行",
-        "Number_Adults": "成年人的数量",
-        "Number_Children": "儿童人数",
+        "FirstName": "名字",
+        "LastName": "姓氏",
+        "numberPhone": "电话号码",
+        "email": "电子邮件",
+        "hasAnimal": "您有携带动物吗？",
+        "Number_Adults": "成人数量",
+        "Number_Children": "儿童数量",
         "date of reservation": "预订日期",
         "select_Date": "选择日期",
-        "Number_Babies": "婴儿人数",
+        "select_person": "选择人数",
+        "errorFirstName": "名字是必填项",
+        "errorLastName": "姓氏是必填项",
+        "errornumberPhon1": "电话号码是必填项",
+        "errornumberPhon2": "电话号码必须以06开头，并包含10位数字",
+        "errorEmail1": "电子邮件地址是必填项",
+        "errorEmail2": "请输入有效的电子邮件地址，例如 'name@gmail.com'",
         "Confirm_Reservation": "确认预订",
-        "Duration": "期间",
-        "Detail_Tariff": "关税详细信息",
-        "Price_Adults": "成人的价格",
-        "Price_Children": "儿童的价格",
-        "Price_Babies": "婴儿的价格",
-        "Total_Price": "总价",
-        "alert": "请选择日期比今天晚"
-      },
-      "propose": {
-        "propose1": {
-          "title": "免费取消",
-          "descr": "提前24小时取消以获得全额退款。"
-        },
-        "propose2": {
-          "title": "最大安全性",
-          "descr": "加强了安全措施，以确保您的安心。"
-        },
-        "propose3": {
-          "title": "24/7支持",
-          "descr": "随时可用的帮助来回答您的问题。"
-        },
-        "propose4": {
-          "title": "小组",
-          "descr": "享受小组人数的更个性化的体验。"
-        }
+        "confirme_change": "确认更改",
+        "Duration": "时长",
+        "Detail_Tariff": "价格详情",
+        "Price_Adults": "成人价格",
+        "Price_Children": "儿童价格",
+        "Price_Babies": "婴儿价格",
+        "Total_Price": "总价格",
+        "alert": "请选择今天之后的日期"
       },
       "tour": {
         "tour_1": {
-          "title": "从阿加迪尔到马拉喀什的旅行",
+          "title": "从阿加迪尔到马拉喀什之旅",
           "route": {
-            "Amskroud": "Amskroud",
-            "Imi n'Tanout": "imi n'tanout",
-            "sidi mokhtar": "Sidi Mokhtar",
-            "chichaoua": "Chichaoua",
-            "lalla Takerkoust": "Lalla Takerkoust",
-            "point 6": "点6"
+            "Amskroud": "阿姆斯克鲁德",
+            "Imi n'Tanout": "伊米·坦努特",
+            "Sidi Mokhtar": "西迪·穆赫塔尔",
+            "Chichaoua": "奇查瓦",
+            "Lalla Takerkoust": "拉拉·塔克库斯特",
+            "Point 6": "第6点"
           },
           "passBy": {
-            "passBy": "经过",
+            "passBy": "途经",
             "pass": {
-              "Amskroud": "Amskroud",
-              "Imi n'Tanout": "imi n'tanout",
-              "Sidi Mokhtar": "Sidi Mokhtar",
-              "Chichaoua": "Chichaoua",
-              "Lalla Takerkoust": "Lalla Takerkoust"
+              "Amskroud": "阿姆斯克鲁德",
+              "Imi n'Tanout": "伊米·坦努特",
+              "Sidi Mokhtar": "西迪·穆赫塔尔",
+              "Chichaoua": "奇查瓦",
+              "Lalla Takerkoust": "拉拉·塔克库斯特"
             }
           },
-          "description": "在阿加迪尔和马拉喀什之间发现风景如画的景观，并引人入胜。",
+          "description": "探索阿加迪尔与马拉喀什之间的风景，并享受迷人的停靠点。",
           "departure": "马拉喀什",
-          "arrival": "埃索拉（Essaouira）",
-          "type": "发现",
+          "arrival": "索维拉",
+          "type": "探索",
           "duration": "2小时30分钟"
         },
         "tour_2": {
-          "title": "游览Marrakech -Essaouira",
-          "description": "un parcoursmagiqueàtraversles les collinesetêtsd'Arganiersjusqu'àlaCôteAtlantique。",
-          "type": "découverte",
-          "duration": "1Journée"
+          "title": "马拉喀什 - 索维拉游",
+          "description": "穿越山丘与阿甘树林，一路抵达大西洋海岸的神奇旅程。",
+          "type": "探索",
+          "duration": "1天"
         },
         "tour_3": {
-          "title": "公路旅行Essaouira -Agadir",
-          "description": "partezàladécouvertedes callings sauvages et des charmants村庄côtiers。",
-          "type": "松弛",
-          "duration": "3个旅程"
+          "title": "索维拉 - 阿加迪尔公路之旅",
+          "description": "探索原始海滩和迷人的沿海村庄。",
+          "type": "休闲",
+          "duration": "3天"
         },
         "tour_4": {
-          "title": "Aventure D'uneJournéeAgadir -Essaouira",
-          "description": "Profitez d'une路线全景Jusqu'àlaCélèbreVille Bleue，Essaouira。",
-          "type": "VisiteGuidée",
-          "duration": "1Journée"
+          "title": "阿加迪尔 - 索维拉一日游",
+          "description": "享受风景如画的旅程，前往著名的蓝色城市索维拉。",
+          "type": "导览游",
+          "duration": "1天"
         },
         "tour_5": {
-          "title": "电路马拉喀什，Essaouira et agadir",
-          "description": "Explorez Les Merveilles de Trois VillesEmblématiquesdu Maroc。",
-          "type": "游览",
-          "duration": "5个旅程"
+          "title": "马拉喀什、索维拉和阿加迪尔之旅",
+          "description": "探索摩洛哥三座标志性城市的奇迹。",
+          "type": "旅行",
+          "duration": "5天"
         }
       }
     },

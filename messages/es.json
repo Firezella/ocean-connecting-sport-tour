@@ -275,40 +275,35 @@
     "tours": {
       "heading": "Tours",
       "show_map": "Mostrar mapa",
+      "book": "Reservar ahora",
       "Itinerary": "Itinerario",
       "form": {
         "title": "Reserva tu tour",
+        "FirstName": "Nombre",
+        "LastName": "Apellido",
+        "numberPhone": "Número de teléfono",
+        "email": "Correo electrónico",
+        "hasAnimal": "¿Llevas un animal contigo?",
         "Number_Adults": "Número de adultos",
         "Number_Children": "Número de niños",
         "date of reservation": "Fecha de reserva",
         "select_Date": "Seleccionar fecha",
-        "Number_Babies": "Número de bebés",
+        "select_person": "Seleccionar persona",
+        "errorFirstName": "El nombre es obligatorio",
+        "errorLastName": "El apellido es obligatorio",
+        "errornumberPhon1": "El número de teléfono es obligatorio",
+        "errornumberPhon2": "El número de teléfono debe comenzar con 06 y contener 10 dígitos",
+        "errorEmail1": "Se requiere una dirección de correo electrónico",
+        "errorEmail2": "Por favor, introduce una dirección de correo válida, por ejemplo, 'name@gmail.com'",
         "Confirm_Reservation": "Confirmar reserva",
+        "confirme_change": "Confirmar cambio",
         "Duration": "Duración",
-        "Detail_Tariff": "Detalles de tarifa",
+        "Detail_Tariff": "Detalle de tarifa",
         "Price_Adults": "Precio adultos",
         "Price_Children": "Precio niños",
         "Price_Babies": "Precio bebés",
         "Total_Price": "Precio total",
         "alert": "Por favor, selecciona una fecha posterior a hoy"
-      },
-      "propose": {
-        "propose1": {
-          "title": "Cancelación gratuita",
-          "descr": "Cancela hasta 24 horas antes para un reembolso completo."
-        },
-        "propose2": {
-          "title": "Máxima seguridad",
-          "descr": "Medidas de seguridad reforzadas para garantizar tu tranquilidad."
-        },
-        "propose3": {
-          "title": "Soporte 24/7",
-          "descr": "Asistencia disponible en cualquier momento para responder tus preguntas."
-        },
-        "propose4": {
-          "title": "Grupos reducidos",
-          "descr": "Disfruta de una experiencia más personalizada con grupos pequeños."
-        }
       },
       "tour": {
         "tour_1": {
@@ -316,10 +311,10 @@
           "route": {
             "Amskroud": "Amskroud",
             "Imi n'Tanout": "Imi n'Tanout",
-            "sidi mokhtar": "Sidi Mokhtar",
-            "chichaoua": "Chichaoua",
-            "lalla Takerkoust": "Lalla Takerkoust",
-            "point 6": "Punto 6"
+            "Sidi Mokhtar": "Sidi Mokhtar",
+            "Chichaoua": "Chichaoua",
+            "Lalla Takerkoust": "Lalla Takerkoust",
+            "Point 6": "Punto 6"
           },
           "passBy": {
             "passBy": "Pasar por",
@@ -333,38 +328,36 @@
           },
           "description": "Descubre los paisajes pintorescos entre Agadir y Marrakech con paradas fascinantes.",
           "departure": "Marrakech",
-          "arrival": "Essaouira",
+          "arrival": "Esauira",
           "type": "Descubrimiento",
           "duration": "2 horas 30 minutos"
         },
-
         "tour_2": {
-          "title": "Excursión Marrakech - Essaouira",
-          "description": "Un recorrido mágico a través de las colinas y bosques de argán hasta la costa atlántica.",
+          "title": "Excursión Marrakech - Esauira",
+          "description": "Un recorrido mágico a través de colinas y bosques de argán hasta la costa atlántica.",
           "type": "Descubrimiento",
           "duration": "1 día"
         },
         "tour_3": {
-          "title": "Road Trip Essaouira - Agadir",
-          "description": "Emprende un viaje para descubrir las playas salvajes y encantadores pueblos costeros.",
+          "title": "Road Trip Esauira - Agadir",
+          "description": "Explora las playas salvajes y los encantadores pueblos costeros.",
           "type": "Relajación",
           "duration": "3 días"
         },
         "tour_4": {
-          "title": "Aventura de un día Agadir - Essaouira",
-          "description": "Disfruta de una ruta panorámica hasta la famosa ciudad azul, Essaouira.",
+          "title": "Aventura de un día Agadir - Esauira",
+          "description": "Disfruta de un viaje panorámico hasta la famosa ciudad azul, Esauira.",
           "type": "Visita guiada",
           "duration": "1 día"
         },
         "tour_5": {
-          "title": "Circuito Marrakech, Essaouira y Agadir",
+          "title": "Circuito Marrakech, Esauira y Agadir",
           "description": "Explora las maravillas de tres ciudades emblemáticas de Marruecos.",
           "type": "Excursión",
           "duration": "5 días"
         }
       }
     },
-
     "opinion": {
       "title": "Lo que dicen nuestros clientes sobre nosotros",
       "opinions": {
